@@ -1,0 +1,218 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+#fixedTop {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(245, 240, 231);
+    font-size: 12px;
+}
+#fixedTop :nth-child(2) {
+    width: 950px;
+}
+#fixedTop h3{
+    margin: auto 20px;
+}
+#fixedTop button {
+    width: 130px;
+    background-color: blueviolet;
+    height: 40px;
+    color: white;
+    margin: 18px 80px 18px 18px;
+    border-radius: 5px;
+}
+#fixedTop img {
+    margin-left: 25px;
+}
+#blueBackground {
+    background-color: rgb(93, 77, 241);
+    width: 100%;
+    height: 700px;
+    margin-top: 75px;
+    color: white;
+}
+#blueBackground :last-child{
+    width: 500px;
+    height: 600px;
+    margin: 20px 35px 20px 250px;
+}
+
+#blueBackground h1 {
+    float: left;
+    margin-left: 70px;
+    margin-top: 250px;
+    font-size: 50px;
+}
+#blueBackground h3 {
+    clear: left;
+    float: left;
+    margin-left: 70px;
+}
+#blueBackground p {
+    clear: left;
+    float: left;
+    margin-left: 70px;
+}
+.left {
+    float: left;
+    margin: 0px 15px;
+}
+#blueBackground button {
+    clear: left;
+    float: left;
+    margin: 20px 70px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+}
+#video video {
+    float: left;
+    width: 500px;
+    height: 650px;
+    margin: 80px 0px 20px 100px;
+}
+#video h1 {
+    float: right;
+    margin: 300px 150px 10px 0px;
+    font-size: 45px;
+}
+#video h3 {
+    clear: right;
+    float: right;
+    margin: 10px 150px 0px 0px;
+    font-size: 17px;
+}
+.redBtn {
+    background-color: red;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(245, 240, 231);
+    text-align: center;
+    padding-top:12px;
+    display:inline-block;
+    font-size: 20px;
+}
+#video a {
+    clear: right;
+    float: left;
+    margin: 20px 137px;
+}
+#bigImg {
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 900px 0px 480px 0px;
+    color: white;
+    background-color: rgb(37, 78, 78);
+    justify-content: center;
+}
+#bigImg img {
+    width: 90%;
+}
+#push {
+    grid-area: a;
+}
+#data {
+    grid-area: b;
+}
+#rich {
+    grid-area: c;
+}
+#ease {
+    grid-area: d;
+}
+#prf {
+    grid-area: e;
+}
+#support {
+    grid-area: f;
+}
+
+#grid {
+    display: grid;
+    margin: 50px 0px;
+    grid-gap: 50px;
+    justify-content: center;
+    text-align: center;
+    grid-template-areas: "a b c"
+                         "d e f";
+                
+}
+a {
+    text-decoration: none;
+}
+#grid img {
+    width: 60px;
+    height: 60px;
+}
+#borderBox {
+    height: 300px;
+    width: 80%;
+    margin: 10%;
+    background-color: rgb(240, 234, 234)
+}
+#borderBox img {
+    height: 300px;
+    width: 400px;
+    float: left;
+}
+#borderBox h2 {
+    margin: 65px 0px 5px 30px;
+    float: right;
+    width: 750px;
+}
+#borderBox p {
+    clear: right;
+    float: right;
+    height: 120px;
+    margin: 0px;
+    width: 750px;
+}
+#borderBox a {
+    margin-top: 0px;
+    color: red;
+    clear: right;
+    float: right;
+    width: 750px;
+}
+#lastPart {
+    text-align: center;
+    background-color: rgb(43, 60, 65);
+    width: 100%;
+    height: 500px;
+    color: white;
+    margin: 100px 0px 5px 0px;
+}
+#lastPart :nth-child(4) {
+    color: rgb(26, 53, 53);
+}
+#flex {
+    display: flex;
+    /* margin: 50px 50px 10px 100px; */
+}
+#flex a {
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+    flex-basis: 7%;
+}
+#flex :nth-child(4) {
+    color: white;
+}
+#flex a {
+    text-align: left;
+}
+#flex :nth-child(6) {
+    flex-shrink: 50%;
+}
+#flex p {
+    font-size: 12px;
+}
+#flex img {
+    margin-left: 100px;
+}
