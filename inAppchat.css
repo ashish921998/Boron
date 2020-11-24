@@ -16,6 +16,12 @@
 #fixedTop h3{
     margin: auto 20px;
 }
+#fixedTop > h3:hover {
+    /* source - StackOverflow */
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
 #fixedTop button {
     width: 130px;
     background-color: blueviolet;
