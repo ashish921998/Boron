@@ -10,6 +10,7 @@
     background-color: rgb(13, 45, 58);
     width: 100%;
     height: 900px;
+   
 }
 #grid {
     margin: 50px auto;
@@ -19,7 +20,7 @@
     display: grid;
     grid-gap: 30px;
     color: white;
-    clip-path: polygon(0% 0%, 95% 0% , 100% 100% , 0% 100%);
+   
     grid-template-areas: "a b"
                          "c d";   
 
@@ -98,15 +99,19 @@
 }
 .Customer {
     grid-area: x;
+    border-top: 7px solid red;
 }
 .operations {
     grid-area: y;
+    border-top: 7px solid green;
 }
 .hr {
     grid-area: z;
+    border-top: 7px solid orange;
 }
 .all {
     grid-area: w;
+    border-top: 7px solid blue;
 }
 .extLink {
     float: right;

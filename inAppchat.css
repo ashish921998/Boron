@@ -1,27 +1,106 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(220, 229, 238);
+    display: flex;
+    vertical-align: center;
+    /* overflow-x: hidden; */
+    margin-top: 0px;
+}
+
+#header img{
+    margin-left: 60px;
+}
+
+#header h5{
+    /* margin-left: 60px; */
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#header :nth-child(5) {
+    width: 160px;
+}
+
+#header :nth-child(2) {
+    margin-left: 50px;
+}
+
+#header :nth-child(7) {
+    border-bottom: 2px solid rgb(37, 3, 77);
+}
+
+#header h5:focus{
+    color: coral;
+    transform: scale(1.1);
+}
+
+
+#header h5:hover{
+    color: coral;
+    transform: translate(2px , -1px);
+    border-bottom: 2px solid orangered;
+    
+}
+
+#header :last-child {
+    margin-left: 450px;
+    width: 70px;
+    cursor: pointer;
+    margin-top: 25px;
+    height: 25px;
+}
+
+#header :last-child:hover{
+    transform: translate(2px , -1px);
+    /* border: yellow solid 1px; */
+    color: red;
+    border-radius: 5px;
+}
+
 #fixedTop {
-    position: fixed;
+    position: sticky;
     display: flex;
     top: 0px;
     width: 100%;
     height: 75px;
     background-color: rgb(245, 240, 231);
     font-size: 12px;
+    cursor: pointer;
+    z-index: 2;
 }
+
 #fixedTop :nth-child(2) {
     width: 950px;
 }
+
 #fixedTop h3{
     margin: auto 20px;
+    
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9cc9ad34f1f758c301605c43a374ccae8a297333
 #fixedTop > h3:hover {
     /* source - StackOverflow */
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+<<<<<<< HEAD
+      
 }
+
+=======
+}
+>>>>>>> 9cc9ad34f1f758c301605c43a374ccae8a297333
 #fixedTop button {
     width: 130px;
     background-color: blueviolet;
@@ -29,21 +108,28 @@
     color: white;
     margin: 18px 80px 18px 18px;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 #fixedTop img {
     margin-left: 25px;
 }
+
 #blueBackground {
     background-color: rgb(93, 77, 241);
     width: 100%;
     height: 700px;
-    margin-top: 75px;
     color: white;
+    clip-path: polygon(0% 0% , 100% 0% , 100% 85% , 0% 100%);
+    border: 1px solid black;
+    z-index: 1;
 }
 #blueBackground :last-child{
-    width: 500px;
+    width: 550px;
     height: 600px;
     margin: 20px 35px 20px 250px;
+    float: right;
+    position: absolute;
 }
 
 #blueBackground h1 {
@@ -73,6 +159,7 @@
     width: 130px;
     height: 40px;
     border-radius: 5px;
+    font-weight: 10px;
 }
 #video video {
     float: left;
@@ -197,28 +284,35 @@ a {
 #lastPart :nth-child(4) {
     color: rgb(26, 53, 53);
 }
-#flex {
+
+
+#bot_2{
     display: flex;
-    /* margin: 50px 50px 10px 100px; */
+    flex-direction: row;
+    margin-top: 100px;
 }
-#flex a {
+
+#bot_2 * {
+    min-width: 50px;
+    margin: 10px 10px;
+}
+
+#bot_2 img {
+    height: 17px;
+    width: 17px;
+    margin-top: 10px;
+}
+
+#bot_2 :nth-child(2) {
+    margin-right: 10px;
+}
+
+#bot_2 :nth-child(4) {
+    margin-right: 250px;
     color: white;
-    font-size: 12px;
-    margin: 10px;
-    flex-basis: 7%;
 }
-#flex :nth-child(4) {
-    color: white;
+
+#bot_2 :last-child {
+    margin-left: 250px;
 }
-#flex a {
-    text-align: left;
-}
-#flex :nth-child(6) {
-    flex-shrink: 50%;
-}
-#flex p {
-    font-size: 12px;
-}
-#flex img {
-    margin-left: 100px;
-}
+
