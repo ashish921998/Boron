@@ -1,0 +1,108 @@
+
+*{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size:15px;
+}
+.container{
+    width:100%;
+    height:1200px;
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+}
+.top_footer{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+    position: relative;
+    
+}
+.top_footer>div{
+    
+    height:80px;
+    width:80;margin-top: 10px;
+    
+}
+#second_part{
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#second_part>div{
+    float: left;
+    
+}
+.c2_2>button{
+    background-color: orangered;
+    margin-left: 400px;
+    width:150px;
+    height:50px;
+    color: white;
+    border-radius: 10px;
+}
+.middle_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.middle_footer>div{
+    width:200px;
+    height: 9s00px;
+    
+}
+.container p{
+    color:#f8f9fa;
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+.bottom_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 50px;
+    justify-content: space-around;
+    
+}
+.bottom_footer>div{
+    
+    height: 80px;
+    margin-top: 20px;
+    
+    
+}
+.bot_1{
+    text-align: center;
+}
+.bot_2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.bot_2>div{
+    height: 50px;
+    width: 32%;
+    
+    margin-right: 5px;
+}
+#r1>div{
+    float: left;
+    margin-left: 10px;
+}
+#r2>div{
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    
+}
+#r2{
+    margin-left: 180px;
+}
